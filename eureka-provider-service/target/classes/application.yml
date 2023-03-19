@@ -1,0 +1,7 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: EUREKA-PROVIDER-SERVICE # 项目服务名,如果不写服务名，默认服务名UNKNOWN
